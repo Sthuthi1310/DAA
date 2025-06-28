@@ -41,10 +41,6 @@ void delheap(int H[],int n)
 {
     for (int i = n / 2 - 1; i >= 0; i--)
     heap(H,n);
-    printf("The heap is:\n");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", H[i]);
-    }
     int root,lastc;
     int i=n-1;
     while(i>0)
@@ -64,8 +60,6 @@ int main()
     fp1=fopen("hnums.txt","w");
     fp2=fopen("hcount.txt","w");
     srand(time(NULL));
-    //printf("Enter the size of the heap to be formed: ");
-    //scanf("%d",&n);
     for(n=10;n<=100;n+=10)
     {
          H=(int*)malloc(n*sizeof(int));
@@ -74,15 +68,39 @@ int main()
         printf("No memoryy\n");
         exit(0);
     }
-    printf("Enter the elements: ");
-    for(int i=0;i<n;i++)
-    scanf("%d",H+i);
+    //Best case 
+    fprintf(fp1,"Best case input: ");
+    H[0]=rand()%1000;
+    fprintf(fp1,"%d ",H[0]);
+    for(int i=1;i<n;i++)
+    {
+        H[i]=H[i-1]-50;
+        fprintf(fp1,"%d ",H[i]);
+    }
+    fprintf(fp1,"\n");
     delheap(H,n);
-    printf("The sorted heap is : ");
-    printf("\n");
+    fprintf(fp2,"%d %d ",n,(count1+count2));
+    //Average case 
+    fprintf(fp1,"Average case input: ");
     for(int i=0;i<n;i++)
     {
-        printf("%d ",H[i]);
+        H[i]=rand()%100;
+        fprintf(fp1,"%d ",H[i]);
     }
+    fprintf(fp1,"\n");
+    delheap(H,n);
+    fprintf(fp2,"%d ",(count1+count2));
+    //Worst case 
+    fprintf(fp1,"Worst case input: ");
+    H[0]=rand()%100;
+    fprintf(fp1,"%d ",H[0]);
+    for(int i=1;i<n;i++)
+    {
+        H[i]=H[i-1]+5;
+        fprintf(fp1,"%d ",H[i]);
+    }
+    fprintf(fp1,"\n");
+    delheap(H,n);
+    fprintf(fp2,"%d\n",(count1+count2));
     }
 }
