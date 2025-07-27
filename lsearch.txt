@@ -1,0 +1,60 @@
+Iteration - 1
+Input array is : 
+4 36 64 83 91 92 29 64 69 14 
+Best case Key is 4
+Average case key is 92
+Worst case key is 555
+Iteration - 2
+Input array is : 
+54 58 68 10 92 14 26 3 83 22 99 96 80 29 51 5 64 85 64 59 
+Best case Key is 54
+Average case key is 99
+Worst case key is 555
+Iteration - 3
+Input array is : 
+87 12 18 39 25 77 69 6 99 59 15 57 21 2 3 15 62 44 9 59 84 11 3 94 54 54 47 14 56 13 
+Best case Key is 87
+Average case key is 15
+Worst case key is 555
+Iteration - 4
+Input array is : 
+69 44 6 93 80 23 24 7 88 13 68 56 95 62 88 13 76 50 89 19 23 48 56 5 91 49 76 65 36 97 29 29 1 92 95 11 77 55 86 91 
+Best case Key is 69
+Average case key is 23
+Worst case key is 555
+Iteration - 5
+Input array is : 
+20 26 24 51 8 45 35 71 41 90 14 6 82 54 62 68 88 21 97 98 0 39 85 75 12 40 41 25 14 44 46 11 73 12 48 88 48 96 91 88 48 97 4 93 16 72 42 37 51 91 
+Best case Key is 20
+Average case key is 40
+Worst case key is 555
+Iteration - 6
+Input array is : 
+30 73 37 32 42 1 58 80 93 78 51 70 20 53 22 36 19 27 57 40 91 76 58 91 23 47 78 39 16 42 42 99 50 90 0 7 91 82 98 59 62 32 0 56 64 64 49 45 74 80 96 84 20 79 95 85 63 22 39 94 
+Best case Key is 30
+Average case key is 42
+Worst case key is 555
+Iteration - 7
+Input array is : 
+17 12 93 40 93 69 97 40 73 61 25 86 88 30 93 62 51 55 36 84 48 3 17 70 36 6 91 47 9 49 93 22 88 15 74 2 55 74 52 77 3 48 39 24 36 60 13 29 29 76 36 16 33 4 20 82 13 99 9 68 8 12 50 14 82 44 19 63 29 90 
+Best case Key is 17
+Average case key is 2
+Worst case key is 555
+Iteration - 8
+Input array is : 
+45 39 9 18 8 94 0 98 34 97 56 38 41 66 53 76 28 45 35 99 22 32 5 7 44 99 97 25 74 57 2 11 7 21 32 11 4 8 39 32 46 53 6 17 75 46 93 53 18 91 97 79 2 81 35 51 89 84 79 56 13 76 22 19 91 61 18 31 30 1 70 67 62 22 94 57 65 95 32 93 
+Best case Key is 45
+Average case key is 46
+Worst case key is 555
+Iteration - 9
+Input array is : 
+51 27 70 77 57 76 30 34 57 47 16 27 16 37 66 76 69 99 2 18 36 65 39 89 9 67 49 34 48 6 42 98 40 66 9 31 67 76 50 5 74 5 6 96 37 47 5 60 65 20 21 8 32 53 53 35 41 65 73 88 56 66 28 86 88 95 39 44 47 91 52 24 82 20 31 21 63 3 71 97 91 16 61 5 35 5 80 90 60 60 
+Best case Key is 51
+Average case key is 47
+Worst case key is 555
+Iteration - 10
+Input array is : 
+21 92 29 16 85 59 18 43 38 51 15 89 83 0 47 28 10 24 13 93 61 97 10 18 85 10 33 52 53 20 91 75 86 52 43 91 5 35 1 77 26 22 93 67 23 23 15 0 48 28 84 28 94 51 75 30 1 89 49 83 63 75 42 70 42 73 73 48 40 13 66 74 29 88 38 73 9 3 27 21 88 53 72 13 54 98 23 2 62 43 8 77 62 53 13 14 40 24 69 3 
+Best case Key is 21
+Average case key is 84
+Worst case key is 555

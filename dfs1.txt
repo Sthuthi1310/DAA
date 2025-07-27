@@ -1,0 +1,215 @@
+iteration: 0
+graph size:1
+type:undirected
+adjacency matrix:
+0 
+connected components:
+A 
+the graph is connected
+the number of components is 1
+the grapgh is not cyclic
+
+
+
+
+
+
+
+iteration: 1
+graph size:2
+type:directed
+adjacency matrix:
+0 1 
+1 0 
+connected components:
+A B 
+the graph is connected
+the number of components is 1
+the grapgh is not cyclic
+
+
+
+
+
+
+
+iteration: 2
+graph size:3
+type:directed
+adjacency matrix:
+0 0 1 
+1 0 1 
+1 1 0 
+connected components:
+A C B 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 3
+graph size:4
+type:directed
+adjacency matrix:
+0 1 1 0 
+1 0 0 1 
+1 1 0 0 
+1 0 1 0 
+connected components:
+A B D C 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 4
+graph size:5
+type:undirected
+adjacency matrix:
+0 0 0 0 0 
+0 0 1 0 1 
+0 1 0 1 0 
+0 0 1 0 1 
+0 1 0 1 0 
+connected components:
+A 
+B C D E the grapgh is not connected
+the number of components is 2
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 5
+graph size:6
+type:undirected
+adjacency matrix:
+0 0 1 0 1 0 
+0 0 1 1 0 1 
+1 1 0 0 1 1 
+0 1 0 0 0 0 
+1 0 1 0 0 1 
+0 1 1 0 1 0 
+connected components:
+A C B D F E 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 6
+graph size:7
+type:directed
+adjacency matrix:
+0 1 1 0 1 1 0 
+1 0 1 0 0 0 0 
+0 0 0 1 0 1 1 
+0 1 0 0 1 0 0 
+1 1 1 1 0 0 1 
+1 1 1 0 1 0 0 
+1 0 1 1 0 1 0 
+connected components:
+A B C D E G F 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 7
+graph size:8
+type:directed
+adjacency matrix:
+0 1 1 1 0 0 1 0 
+0 0 0 1 1 1 1 0 
+1 0 0 1 0 1 0 1 
+0 0 0 0 1 1 1 0 
+1 0 1 0 0 1 1 0 
+1 0 1 0 1 0 0 1 
+1 1 0 0 0 0 0 0 
+0 0 1 1 1 1 1 0 
+connected components:
+A B D E C F H G 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 8
+graph size:9
+type:undirected
+adjacency matrix:
+0 0 1 1 1 1 1 0 0 
+0 0 1 0 1 1 1 0 0 
+1 1 0 0 0 1 0 1 1 
+1 0 0 0 0 0 1 1 0 
+1 1 0 0 0 0 1 1 0 
+1 1 1 0 0 0 1 0 1 
+1 1 0 1 1 1 0 1 1 
+0 0 1 1 1 0 1 0 0 
+0 0 1 0 0 1 1 0 0 
+connected components:
+A C B E G D H F I 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+
+iteration: 9
+graph size:10
+type:directed
+adjacency matrix:
+0 1 0 0 0 0 0 1 1 1 
+1 0 1 1 1 0 1 0 1 0 
+0 1 0 0 0 1 0 0 1 1 
+0 1 0 0 1 0 1 1 1 0 
+1 1 0 1 0 1 0 1 1 1 
+0 1 0 0 1 0 1 1 1 1 
+1 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 
+0 1 1 0 1 1 0 0 0 0 
+0 0 0 1 0 0 1 0 1 0 
+connected components:
+A B C F E D G H I J 
+the graph is connected
+the number of components is 1
+the grapgh is cyclic
+
+
+
+
+
+
+

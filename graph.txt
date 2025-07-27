@@ -1,0 +1,7 @@
+Graph details: 
+Number of vertices: 4
+Number of edges: 5
+Edges: (3 , 0)(3 , 0)(3 , 0)(3 , 0)(3 , 0)Graph details: 
+Number of vertices: 5
+Number of edges: 5
+Edges: (4 , 0)(4 , 0)(4 , 0)(4 , 0)(4 , 0)
